@@ -10,11 +10,11 @@
 <body>
     <h1>Sign In</h1>
 
-    <form action="">
+    <form action="/auth/login" method="post">
         <label for="email">Email</label>
-        <input type="text" name="email" id="email">
+        <input type="text" name="email" id="email" required>
         <label for="password">Password</label>
-        <input type="password" name="password" id="password">
+        <input type="password" name="password" id="password" required>
         <button type="submit">Sign In</button>
     </form>
 </body>
